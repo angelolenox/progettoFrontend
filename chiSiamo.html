@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>e-presto</title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bg-mywhite">
+
+    <!-- navbar -->
+    <nav id="navBar" class="navbar navbar-expand-lg nav-style position-fixed">
+        <div class="container-fluid">
+            <div class="d-flex align-content-center justify-content-center h-100">
+                <a class="navbar-brand m-0 p-0" href="./index.html"><i id="logo" class="fa-solid fa-cart-shopping text-mydarkblue ms-2 "></i></a>
+                <a class="navbar-brand m-0 p-0" href="./index.html"><i id="logo2" class="fa-solid fa-cart-shopping text-myorange d-none ms-2 "></i></a>
+            </div>
+            <button class="navbar-toggler btn-custom p-0 m-0 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars text-myorange"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <a id="aNavbar" class="text-decoration-none" href="./annunci.html"><li id="listNavbar" class=" mx-4 text-mydarkblue">Annunci</li></a>
+                    <a id="aNavbar" class="text-decoration-none" href="./chiSiamo.html"><li id="listNavbar" class=" mx-4 text-mydarkblue">Chi siamo</li></a>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- navbar -->
+    
+    <!-- scroller -->
+    <a id="scroller" href="#" class="d-none">
+        <button id="btnScroller" class="style-scroller2"><i class="fa-solid fa-angles-up"></i></button>
+    </a>
+    <!-- scroller -->
+    
+    <!-- header -->
+    <header class="header-style-Chisiamo d-flex justify-content-center align-items-center flex-column">
+        <h1 class="display-1 text-mydarkblue"><span class="text-myorange">CHI</span> SIAMO</h1>
+    </header>
+    <!-- header -->
+    
+    <!-- section chi siamo -->
+
+    <section class="container">
+        <div class="row vh-100">
+            <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
+                <div class="circle">
+                    <div class="opener">
+                        <i class="fa-solid fa-shop text-mydarkblue fa-3x "></i>
+                    </div>
+                    <div class="moved"></div>
+                    <div class="moved"></div>
+                    <div class="moved"></div>
+                    <div class="moved"></div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center" id="cardWrapper">
+                <!-- card-teacher -->
+            </div>
+        </div>
+    </section>
+    <!-- section chi siamo -->
+    
+    
+    
+    <!-- divscroller -->
+    <!-- <div class="vh-100"></div> -->
+    
+    <!-- footer -->
+    <div id="footerIntersection" class="container-fluid bg-mydarkblue mt-5">
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                    <h5 class="text-myorange">Contatti</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2 text-mywhite">P.IVA 524645643576657567 </li>
+                        <li class="nav-item mb-2 text-mywhite">Indirizzo: via kal</li>
+                        <li class="nav-item mb-2 text-mywhite">Tel. 3456736457</li>
+                        <li class="nav-item mb-2 text-mywhite">e-mail miamail@email.com</li>
+                    </ul>
+                </div>
+                
+                <div class="col-6 col-md-2 mb-3">
+                    <h5 class="text-myorange">Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2 text-mywhite ">Home</li>
+                        <li class="nav-item mb-2 text-mywhite ">Features</li>
+                        <li class="nav-item mb-2 text-mywhite ">Pricing</li>
+                        <li class="nav-item mb-2 text-mywhite ">FAQs</li>
+                        <li class="nav-item mb-2 text-mywhite ">About</li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-5 offset-md-1 mb-3">
+                    <form>
+                        <h5 class="text-myorange">Subscribe to our newsletter</h5>
+                        <p class="text-mywhite">Monthly digest of what's new and exciting from us.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <button class="btn btn-footer" type="button">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="d-flex flex-column flex-sm-row justify-content-between border-top">
+                <p class="text-mywhite">© 2023 Company, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <!-- footer -->
+    
+    
+    <!-- js bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <!-- js -->
+    <script src="./chiSiamo.js"></script>
+</body>
+</html>

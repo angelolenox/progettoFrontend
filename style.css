@@ -1,0 +1,339 @@
+*{font-family: 'Teko', sans-serif;}
+
+:root{
+    --blue: rgb(31, 120, 255);
+    --azure : rgb(77, 163, 255);
+    --white : rgb(245, 247, 250);
+    --orange: rgb(250, 104, 56);
+    --darkblue:rgb(5, 47, 102);
+}
+/* textcolor */
+.text-myblue{
+    color: var(--blue);
+}
+.text-myazure{
+    color: var(--azure);
+}
+.text-mywhite{
+    color: var(--white);
+}
+.text-myorange{
+    color: var(--orange);
+}
+.text-mydarkblue{
+    color: var(--darkblue);
+}
+
+/* bgcolor */
+.bg-myblue{
+    background-color: var(--blue);
+}
+.bg-myazure{
+    background-color: var(--azure);
+}
+.bg-mywhite{
+    background-color: var(--white);
+}
+.bg-myorange{
+    background-color: var(--orange);
+}
+.bg-mydarkblue{
+    background-color: var(--darkblue);
+}
+
+.nav-style{
+    background-color: var(--white);
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    transition: 0.4s;
+}
+
+.navbar-toggler:focus{
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.logo-style{
+    height: 50px;
+    width: 50px;
+    
+}
+.style-scroller{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid var(--orange);
+    background-color: var(--orange);
+    color: var(--white);
+    transition: 0.3s;
+    z-index: 99;
+}
+
+.style-scroller2{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--darkblue);
+    color: var(--white);
+    transition: 0.3s;
+    z-index: 99;
+}
+
+.style-scroller:hover{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+#scroller{
+    position: fixed;
+    bottom: 3%;
+    right: 2%;
+}
+
+.btn-custom{
+    background-color: transparent;
+    height: 25px;
+    width: 40px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+
+
+.input-navbar{
+    border-radius: 5px;
+    border: 2px solid var(--darkblue);
+    
+
+}
+
+.btn-search{
+    background-color: var(--orange);
+    height: 25px;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    transition: 0.3s;
+    
+}
+
+.btn-search:hover{
+    background-color: var(--white);
+    color: var(--darkblue);
+    height: 25px;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+
+.header-style{
+    height: 45vh;
+    margin-top: 100px;
+}
+.header-style-annunci{
+    height: 45vh;
+}
+.header-style-Chisiamo{
+    height: 40vh;
+}
+.btn-offcanvas{
+    height: 30px;
+    width: 50px;
+    border: none;
+    color: var(--white);
+    background-color: var(--darkblue);
+    border-radius: 5px;
+}
+
+.img-incrementer{
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 2px rgb(200, 200, 200);
+}
+
+.container-incrementer {
+    min-height: 60vh;
+}
+
+/* swiper */
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+.card-custom-sw{
+    height: 120px;
+    width: 200px;
+    border: 2px solid var(--blue);
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/* section enter leave */
+.card-enterleave{
+    border: 2px solid var(--blue);
+    color: var(--darkblue);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 14px;
+    transition: 0.3s;
+
+}
+.card-enterleave:hover{
+    background-color: var(--darkblue);
+    color: var(--white);
+    border: 2px solid var(--orange);
+    border-radius: 5px;
+
+}
+
+.card-categories{
+    border: 2px solid var(--orange);
+    border-radius: 5px;
+}
+
+.card-style{
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+.btn-footer{
+    background-color: var(--orange);
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+    transition: 0.3s;
+    
+}
+.btn-footer:hover{
+    background-color: var(--white);
+    color: var(--darkblue);
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+    transition: 0.3s;
+    
+}
+
+
+.announcement-card{
+    min-height: 250px;
+    border: 2px solid var(--orange);
+    border-radius: 5px;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.img-Card-Custom{
+    height: 100px;
+    border-radius: 5px;
+}
+.btn-filter{
+    height: 25px;
+    width: 40px;
+    background-color: var(--orange);
+    color: var(--darkblue);
+    border: none;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.btn-filter:hover{
+    background-color: var(--darkblue);
+    color: var(--white);
+    height: 25px;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+/* chi siamo */
+.circle{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    border: 2px solid var(--darkblue);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.opener{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    border: 2px solid var(--orange);
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    background-color: var(--white);
+    cursor: pointer;
+}
+.moved{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    border: 2px solid var(--orange);
+    position: absolute;
+    transition: 1s;
+    
+    
+    background-image: url('./img/valerio.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--white);
+    cursor: pointer;
+}
+.teacher-card{
+    height: 350px;
+    width: 250px;
+    border-radius: 10px;
+    border: 3px solid var(--darkblue);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--white);
+
+}
+
+
+
+
+
+@media screen and (max-width:455px){
+    .img-incrementer{
+        width: 200px;
+        height: 150px;
+    }
+}
